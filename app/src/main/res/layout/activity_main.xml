@@ -64,12 +64,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <SeekBar
-                    android:id="@+id/seekBar"
+                <TextView
+                    android:id="@+id/faltaP"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:text="@string/faltaP" />
+
+                <SeekBar
+                    android:id="@+id/seekBar"
+                    android:layout_width="235dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:layout_span="3" />
+                    android:layout_span="2" />
 
                 <EditText
                     android:id="@+id/editTextNumberDecimal3"

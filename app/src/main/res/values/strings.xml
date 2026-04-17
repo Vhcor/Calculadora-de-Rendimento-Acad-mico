@@ -3,4 +3,5 @@
     <string name="np1">NP1</string>
     <string name="np2">NP2</string>
     <string name="ms">Média Semestral</string>
+    <string name="faltaP">Falta (%)</string>
 </resources>
