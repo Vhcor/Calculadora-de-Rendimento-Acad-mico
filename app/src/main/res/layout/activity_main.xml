@@ -105,6 +105,25 @@
                     android:inputType="numberDecimal" />
             </TableRow>
 
+            <TableRow android:id="@+id/rowStatus">
+                <TextView android:text="Status:" />
+                <TextView
+                    android:id="@+id/txtStatus"
+                    android:layout_span="2"
+                    android:textStyle="bold"
+                    android:padding="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/rowExame"
+                android:visibility="gone">
+                <TextView android:text="Nota Exame:" />
+                <EditText
+                    android:id="@+id/notaExame"
+                    android:layout_span="2"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
         </TableLayout>
     </ScrollView>
 
